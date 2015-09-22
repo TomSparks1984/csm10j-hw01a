@@ -22,7 +22,13 @@ public class Hw01a {
         ticker2 = file.next(); 
         price2 = file.nextDouble();
         
-        switch (choice){
+        if(choice > 3){
+            System.out.println("Unrecognized menu option, exiting");
+        }
+        if(choice < 1){
+            System.out.println("Unrecognized menu option, exiting");
+        }
+            switch (choice){
             case 1: 
                 String userTicker;
                 System.out.println("your choice: " + choice);
@@ -39,7 +45,8 @@ public class Hw01a {
             break;
             case 3:
                 System.out.println("Goodbye");
-        }
+            break;
+            }
     }
     public static void choice1(String userTicker){
         userTicker = userTicker.toUpperCase();
