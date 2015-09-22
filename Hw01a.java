@@ -61,7 +61,6 @@ public class Hw01a {
         if (userPrice <= (price1)){
             System.out.println(ticker1 + " is more than or equal to " + String.format("%.2f", userPrice));
         }
-        
         if (userPrice <= (price2)) {
             System.out.println(ticker2 + " is more than or equal to " + String.format("%.2f", userPrice));
         }
