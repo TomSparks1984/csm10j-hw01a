@@ -7,5 +7,6 @@ Bugs
   -
   
 Improvements
-  - A "go back" option 
+  - A list of possible tickers 
   - A higher or lower price option for user would be better than just a greater than or equal to
+  - A "go back" option
